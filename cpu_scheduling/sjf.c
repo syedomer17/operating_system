@@ -12,9 +12,9 @@ int main()
     printf("\nEnter burst time of each process:\n");
     for (i = 0; i < n; i++)
     {
-        printf("p%d: ", i + 1);
+        printf("p%d: ", i );
         scanf("%d", &bt[i]);
-        pno[i] = i + 1;
+        pno[i] = i;
     }
 
     // Sorting processes by burst time (SJF)
