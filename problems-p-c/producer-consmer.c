@@ -5,9 +5,7 @@ void main()
     int buffer[10], bufsize, in, out, produce, consume, choice = 0;
     in = 0;
     out = 0;
-
-    printf("Enter the buffer size (max 10): ");
-    scanf("%d", &bufsize);
+    bufsize = 10;
 
     while (choice != 3)
     {
