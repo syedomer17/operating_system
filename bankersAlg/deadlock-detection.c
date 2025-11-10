@@ -53,7 +53,7 @@ void main()
                 {
                     if(c[i][j] > temp[j])
                     {
-                        flag = 1; // cannot execute ✅ FIXED (was wrong before)
+                        flag = 1; 
                         break;
                     }
                 }
